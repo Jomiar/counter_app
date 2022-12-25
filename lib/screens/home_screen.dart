@@ -13,7 +13,10 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: const <Widget>[Text('Cicks Counter'), Text('10')],
+          //children: const <Widget>[Text('Cicks Counter'), Text('10')],
+          //<Widget>, se usa para especificar que solo iran widgets
+          // y no se admitira otro tipo de dato.
+          children: const [Text('Cicks Counter'), Text('10')],
         ),
       ),
     );
