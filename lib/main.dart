@@ -1,3 +1,4 @@
+import 'package:counter_app/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     //Metodo Build
     return const MaterialApp(
-      home: Center(child: Text('Hola Mundo')),
+      debugShowCheckedModeBanner: false,
+      home: HomeScreen(),
     );
   }
 }
